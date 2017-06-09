@@ -1,166 +1,114 @@
 <!doctype HTML>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>J. Random Hacker</title>
-    </head>
-    <body>
-        <header>
-            <h1>J. Random Hacker</h1>
-            <nav class="main-nav">
-                <ul>
-                    <li class="main-nav-link"><a href="#about">About me</a></li>
-                    <li class="main-nav-link"><a href="#work">My work</a></li>
-                    <li class="main-nav-link"><a href="#contact">Contact me</a></li>
-                </ul>
-            </nav>
+	<head>
+		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+		<link rel="stylesheet" href="res/css/css.css">
+		<link rel="stylesheet" href="res/css/modesto.css">
+		<link rel="stylesheet" href="res/css/junction.css">
+		<link rel="stylesheet" href="res/css/league-spartan.css">
+		<link rel="stylesheet" href="res/css/league-gothic.css">
+		<link rel="stylesheet" href="res/css/font-mfizz.css">
+		<script src="https://use.fontawesome.com/e5da894dce.js"></script>
+		<script src="./res/js/jquery-3.2.1.min.js"></script>
+		<script src="./res/js/velocity.min.js"></script>
+		<script src="./res/js/velocity.ui.js"></script>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Zach Williams Portfolio</title>
+	</head>
+	<body>
+		<section id="header" class="panel">
+			<h1 class="title">Zachary Williams</h1>
+			<nav class="main-nav">
+				<ul class="main-nav-link-ul">
+					<li class="main-nav-link-li">
+						<a href="#webdev">
+							<h2>Web Projects <i class="fa fa-code" aria-hidden="true"></i></h2>
+							<h4>Selected Projects I've Coded</h4>
+						</a>
+					</li>
+					<li id="headshot-li" class="main-nav-link-li">
+						<img class="headshot" src="http://unsplash.it/150/150" alt="J. Random Hacker headshot">
+					</li>
 
-            <img class="headshot" src="http://unsplash.it/150/150"
-                alt="J. Random Hacker headshot">
+					<li class="main-nav-link-li">
+						<a href="#games">
+							<h2><i class="fa fa-television" aria-hidden="true"></i> Game Projects</h2>
+							<h4>Some Games I've Made</h4>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="description">
+				<h2>About Me</h2>
+				<p>Hi. I'm Zach.  I make things.  Things like games.  And websites.  Computers, occasionally, too.  I used to also make written things, but not anymore.</p>
+				<p>I also like things.  Things like coffee.  And games.  And websites.  And robots.  Its not surprising I make some of those things, too.  I've made a list of some of the things I made.  I like them.  I think you'll like them, too.</p>
+				<p>If you like them enough, please contact me.  I'll make some of those things for you, too.</p>
+			</div>
+			<nav class="contact-links">
+				<ul>
+					<li class="contact-link contact-link-email"><h3><a href="mailto:saumanahaii@gmail.com.com"><i class="fa fa-envelope" aria-hidden="true"></i> Email</h3></a>
+					<li class="contact-link contact-link-linkedin"><h3><a href="https://www.linkedin.com"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</h3></a>
+					<li class="contact-link contact-link-github"><h3><a href="https://www.github.com/saumanahai"><i class="fa fa-github-square" aria-hidden="true"></i> GitHub</h3></a>
+				</ul>
+			</nav>
+		</section>
+		<section id="webdev" name="webdev" class="panel divider"><h2>Web Development Projects</h2></section>
+		<section class="project panel">
+			<img class="project-image" src="./res/img/quizical.png"
+				alt="Frobnicator screenshot">
+			<h3>Quizical</h3>
+			<p class="project-description">
+				A handy quiz app built with React, Redux, Express, Node, and the Open Trivia Database.
+			</p>
+			<nav class="project-links">
+				<ul class = "project-links">
+					<li class="project-link project-link-live">
+						<a href="https://quizical-app.herokuapp.com/"><h3>Live demo</h3></a>
+					</li>
+					<li class="project-link project-link-github">
+						<a href="https://github.com/saumanahaii/react-capstone"><h3>Source code</h3></a>
+					</li>
+				</ul>
+			</nav>
+		</section>
+		<section id="games" class="panel divider"><h2>Game Development Projects</h2></section>
+		<section class="project panel">
+			<img class="project-image" src="http://unsplash.it/1000/500?random&amp;bust=2"
+				alt="FooBar screenshot">
+			<h3>FooBar</h3>
+			<p class="project-description">
+				<p>A foo which allows you to bar other bazes.  A foo which allows you to bar other bazes.  A foo which allows you to bar other bazes.  A foo which allows you to bar other bazes.</p>
+				<p>A foo which allows you to bar other bazes.  A foo which allows you to bar other bazes.  A foo which allows you to bar other bazes.  A foo which allows you to bar other bazes.</p>
+			</p>
+			<nav class="project-links">
+				<ul class="project-links">
+					<li class="project-link project-link-live">
+						<a href="#"><h3>Live demo</h3></a>
+					</li>
+					<li class="project-link project-link-github">
+						<a href="#"><h3>Source code</h3></a>
+					</li>
+				</ul>
+			</nav>
+		</section>
+		<section class="contact" id="contact">
+			<h3 id="contact-form-slide-button">Contact me</h3>
+			<p>Saumanahaii@gmail.com</p>
+			<form class="pure-form pure-form-aligned contact-form" action="https://formspree.io/jrandomhacker@example.com" method="POST">
+						<label for="contact-form-name">Name</label>
+						<input class="half-height" type="text" name="name" id="contact-form-name" placeholder="Grace Hopper">
 
-            <p class="about" id="about">
-                Hi, I'm J. Random Hacker, a full-stack web developer from Nowheresville, USA.  I use React and Node.js to build web apps which leave you with a minty fresh taste in your mouth.  Outside of coding I enjoy watching <a href="https://www.youtube.com/watch?v=6SFNW5F8K9Y">this video</a> on repeat.
-            </p>
-            <nav class="contact-links">
-                <ul>
-                    <li class="contact-link contact-link-email"><a href="mailto:jrandomhacker@example.com">Email</a>
-                    <li class="contact-link contact-link-linkedin"><a href="https://www.linkedin.com">LinkedIn</a>
-                    <li class="contact-link contact-link-github"><a href="https://www.github.com">GitHub</a>
-                </ul>
-            </nav>
-        </header>
-        <section class="work" id="work">
-            <h2>My work</h2>
-            <section class="project">
-                <h3>Frobnicator</h3>
-                <img class="project-image" src="http://unsplash.it/350/150?random&amp;bust=1"
-                    alt="Frobnicator screenshot">
-                <p class="project-description">
-                    A frob which allows you to frobnicate other frobs.
-                </p>
-                <ul class="project-stack">
-                    <li class="project-stack-item">
-                        React
-                    </li>
-                    <li class="project-stack-item">
-                        Redux
-                    </li>
-                    <li class="project-stack-item">
-                        Node.js
-                    </li>
-                </ul>
-                <nav class="project-links">
-                    <ul>
-                        <li class="project-link project-link-live">
-                            <a href="#">Live demo</a>
-                        </li>
-                        <li class="project-link project-link-github">
-                            <a href="#">Source code</a>
-                        </li>
-                    </ul>
-                </nav>
-            </section>
-            <section class="project">
-                <h3>FooBar</h3>
-                <img class="project-image" src="http://unsplash.it/350/150?random&amp;bust=2"
-                    alt="FooBar screenshot">
-                <p class="project-description">
-                    A foo which allows you to bar other bazes.
-                </p>
-                <ul class="project-stack">
-                    <li class="project-stack-item">
-                        React
-                    </li>
-                    <li class="project-stack-item">
-                        Redux
-                    </li>
-                    <li class="project-stack-item">
-                        Node.js
-                    </li>
-                </ul>
-                <nav class="project-links">
-                    <ul>
-                        <li class="project-link project-link-live">
-                            <a href="#">Live demo</a>
-                        </li>
-                        <li class="project-link project-link-github">
-                            <a href="#">Source code</a>
-                        </li>
-                    </ul>
-                </nav>
-            </section>
-            <section class="project">
-                <h3>AliceBob</h3>
-                <img class="project-image" src="http://unsplash.it/350/150?random&amp;bust=3"
-                    alt="AliceBob screenshot">
-                <p class="project-description">
-                    An Alice which allows you to Bob other Eves.
-                </p>
-                <ul class="project-stack">
-                    <li class="project-stack-item">
-                        React
-                    </li>
-                    <li class="project-stack-item">
-                        Redux
-                    </li>
-                    <li class="project-stack-item">
-                        Node.js
-                    </li>
-                </ul>
-                <nav class="project-links">
-                    <ul>
-                        <li class="project-link project-link-live">
-                            <a href="#">Live demo</a>
-                        </li>
-                        <li class="project-link project-link-github">
-                            <a href="#">Source code</a>
-                        </li>
-                    </ul>
-                </nav>
-            </section>
-            <section class="project">
-                <h3>Wibble</h3>
-                <img class="project-image" src="http://unsplash.it/350/150?random&amp;bust=4"
-                    alt="Wibble screenshot">
-                <p class="project-description">
-                    A wibble which allows you to wobble other wubbles.
-                </p>
-                <ul class="project-stack">
-                    <li class="project-stack-item">
-                        React
-                    </li>
-                    <li class="project-stack-item">
-                        Redux
-                    </li>
-                    <li class="project-stack-item">
-                        Node.js
-                    </li>
-                </ul>
-                <nav class="project-links">
-                    <ul>
-                        <li class="project-link project-link-live">
-                            <a href="#">Live demo</a>
-                        </li>
-                        <li class="project-link project-link-github">
-                            <a href="#">Source code</a>
-                        </li>
-                    </ul>
-                </nav>
-            </section>
-        </section>
-        <section class="contact" id="contact">
-            <h2>Contact me</h2>
-            <form action="https://formspree.io/jrandomhacker@example.com"
-                  method="POST">
-                <label for="contact-form-name">Your Name</label>
-                <input type="text" name="name" id="contact-form-name" placeholder="Grace Hopper">
-                <label for="contact-form-email">Your Email Address</label>
-                <input type="email" name="_replyto" id="contact-form-email" placeholder="grace@example.com">
-                <label for="contact-form-message">Message</label>
-                <textarea name="message" id="contact-form-message"></textarea>
-                <input type="submit" value="Send message">
-            </form> 
-        </section>
-    </body>
+						<label for="contact-form-email">Email</label>
+						<input class="half-height" type="email" name="_replyto" id="contact-form-email" placeholder="grace@example.com">
+
+
+					<textarea class="full-height" name="message" id="contact-form-message"></textarea>
+					<input id="contact-button" type="submit" value="Send message">
+
+			</form>
+		</section>
+		<br>
+	</body>
+	<script src="./res/js/js.js"></script>
 </html>

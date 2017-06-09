@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-in-progress",
+  "version": "1.0.0",
+  "description": "My portfolio project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saumanahaii/portfolio-in-progress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saumanahaii/portfolio-in-progress/issues"
+  },
+  "homepage": "https://github.com/saumanahaii/portfolio-in-progress#readme"
+}

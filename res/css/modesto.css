@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'ModestoOpen-InlineFill';
+	src: url('../fonts/modesto/ModestoOpen-InlineFill.ttf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ModestoOpen-Outline';
+	src: url('../fonts/modesto/ModestoOpen-Outline.ttf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ModestoOpen-Primary';
+	src: url('../fonts/modesto/ModestoOpen-Primary.ttf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ModestoOpen-Shadow';
+	src: url('../fonts/modesto/ModestoOpen-Shadow.ttf');
+	font-weight: 400;
+	font-style: normal;
+}
